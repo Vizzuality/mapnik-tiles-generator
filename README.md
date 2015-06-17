@@ -18,6 +18,11 @@ Install Node Js dependences
 
     npm install
 
+Prepare and activate virtual env
+
+    virtualenv env
+    source env/bin/activate
+
 Before execute edit `start.sh` file and then run:
 
     ./start.sh
