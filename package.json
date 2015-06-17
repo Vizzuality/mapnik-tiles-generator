@@ -1,0 +1,31 @@
+{
+  "name": "mapkink-tool",
+  "version": "1.0.0",
+  "description": "A tool to generate tiles from TIF image",
+  "main": "server.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidsingal/mapnik-tool.git"
+  },
+  "author": "David Inga <david.inga@vizzuality.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidsingal/mapnik-tool/issues"
+  },
+  "homepage": "https://github.com/davidsingal/mapnik-tool#readme",
+  "dependencies": {
+    "carto": "^0.14.1",
+    "colors": "^1.1.0",
+    "handlebars": "^3.0.3",
+    "mapnik": "^3.3.0",
+    "mapnik-omnivore": "^6.1.2",
+    "python-shell": "^0.1.0",
+    "underscore": "^1.8.3"
+  }
+}
